@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "product_url": "데이터 특징",
+      "product_img": "./images/Animation.gif",
+      "product_name": "데이터 특징",
+      "product_brief_description": "서울 및 경기도들의 다양한 데이터",
+      "starting_price": "동물 관련 업종 데이터, 공원, 인구수, 반려동물 등록수 등"
+    },
+    {
+      "product_url": "모델",
+      "product_img": "./images/훈련모델 정확도.png",
+      "product_img2": "./images/훈련모델 테스트 정확도.png",
+      "product_name": "훈련 모델의 정확도",
+      "product_brief_description": "훈련 및 테스트 모델 정확도 현황",
+      "starting_price": "선형 회귀, 랜덤 포레스트 , 릿지, 라쏘, XGBOOST",
+      "price_range": ""
+    },
+    {
+      "product_url": "데이터별 상관 관계",
+      "product_img": "./images/서울상관관계.png",
+      "product_img2": "./images/경기상관관계.png",
+      "product_name": "데이터별 상관 관계",
+      "product_brief_description": "",
+      "starting_price": "서울 경기 각각 동일한 19개의 요소가 있습니다,",
+      "price_range": "보통 동물 수와 인구수가 높은 상관 관계를 가지며 시설 수 중 다수를 차지하는 동물 병원과 약국의 상관관계 역시 높은 편입니다"
+    },
+    {
+      "product_url": "선형회귀",
+      "product_img": "./images/서울 동물 수와 칼럼회귀선.png",
+      "product_img2": "./images/경기 동물 수와 칼럼회귀선.png",
+      "product_name": "서울) 선형 회귀선 (경기",
+      "product_brief_description": "동물 수와 요소들간의 선형성을 나태내는 지표입니다",
+      "starting_price": "",
+      "price_range": ""
+    },
+    {
+      "product_url": "예측1",
+      "product_img": "./images/인구수 대비 동물수 합계예측(서울,훈련).png",
+      "product_img2": "./images/인구수 대비 동물 수 합계예측(경기, 예측).png",
+      "product_name": "동물 수 예측 비교",
+      "product_brief_description": "인구수 대비",
+      "starting_price": "인구 수 대비 서울 데이터로 훈련한 훈련 및 예측 지표입니다",
+      "price_range": ""
+    },
+    {
+      "product_url": "예측2",
+      "product_img": "./images/각도별 다항 회귀 모형 적용(서울,훈련).png",
+      "product_img2": "./images/각도별 다항 회귀 모형 적용(경기, 선형, 예측).png",
+      "product_name": "다항 회귀 모형 ",
+      "product_brief_description": "단순 선형 회귀모델과 비교하기 위해 다항 회귀 모형을 적용해 보았습니다",
+      "starting_price": "좌측 - 서울 , 우측 - 경기",
+      "price_range": ""
+    },
+    {
+      "product_url": "예측3",
+      "product_img": "./images/훈련모델 정확도kde.png",
+      "product_img2": "./images/경기 예측 kde(선형,부스트,이진,포레,라쏘).png",
+      "product_name": "서울 훈련 모델별 커널밀도추정",
+      "product_brief_description": "커널 함수와 데이터를 이용한 연속성있는 확률 밀도 함수를 추정하는 방법입니다",
+      "starting_price": "실제 그래프와 유사 할 수록 성공적인 예측을 의미합니다 ",
+      "price_range": ""
+    },
+
+    {
+      "product_url": "예측4",
+      "product_img": "./images/동당 동물 수 실제,선형예측, 부스트예측(서울).png",
+      "product_img2": "./images/동당 동물 수 실제,선형예측, 부스트예측 경기.png",
+      "product_name": "서울 훈련 모델",
+      "product_brief_description": "단순한 plot 방식의 그래프로 실제값 그래프와 유사 할 수록 좋습니다",
+      "starting_price": "",
+      "price_range": ""
+    }
+
+  ]
+}
